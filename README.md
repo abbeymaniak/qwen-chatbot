@@ -43,6 +43,13 @@ Content-Type: application/json
 
 ### Running the Server
 
+0. Create and Activate Virtual Environment
+   ```
+   python3 -m venv myvenv
+   
+   source myvenv/bin/activate
+   ```
+
 1. Install dependencies:
 	 ```
 	 pip install fastapi uvicorn ollama pydantic
